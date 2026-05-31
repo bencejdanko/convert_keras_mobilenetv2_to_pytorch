@@ -2,6 +2,10 @@
 
 Meant to be a pure implementation of MobileNetV2 with 0.35, 0.5 and 1.0 alpha variants and ImageNet pre-trained weights from the original Keras project.
 
+Point-based detection is becoming highly relevant for the industry's shift toward Embodied AI and agentic workflows. In robotics, GUI interaction, and document understanding, predicting a central point or click-target is often more practical and contextually accurate than predicting a full bounding box.
+
+This repository contains a LibreFOMO training example (MobileNetV2 backbone) for a people detection task on [LOAF](https://loafisheye.github.io/) for overhead people detection.
+
 ```
 # pip install torch huggingface_hub
 
