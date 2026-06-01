@@ -41,3 +41,16 @@ print(ckpt["size"], ckpt["imgsz"], ckpt["names"])
 ```
 
 Temporarily hosted all `.pt` PyTorch tensor files at [https://huggingface.co/bdanko/LibreFOMO](https://huggingface.co/bdanko/LibreFOMO)
+
+## Running Locally
+
+To convert the Keras weights to the PyTorch LibreFOMO format locally on your machine, you can run the notebook directly or convert it to a standard Python script and run it:
+
+```bash
+# Convert the notebook to a python script
+jupyter nbconvert --to script convert_keras_mobilenetv2_to_pytorch.ipynb
+
+# Run the generated script
+python convert_keras_mobilenetv2_to_pytorch.py
+```
+
