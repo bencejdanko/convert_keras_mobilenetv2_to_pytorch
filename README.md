@@ -1,5 +1,9 @@
 # Adapting Keras MobiletNetV2 Tensors to PyTorch Implementation
 
+<img width="224" height="224" alt="fomo_scene_1" src="https://github.com/user-attachments/assets/4766e856-eb4e-4a60-8f6e-33f0cd66f2ac" />
+
+<img width="224" height="224" alt="fomo__scene_2" src="https://github.com/user-attachments/assets/9fe13458-8f33-42be-9d2f-71ba0cf2d0ab" /> 
+
 Meant to be a pure implementation of MobileNetV2 with 0.35, 0.5 and 1.0 alpha variants and ImageNet pre-trained weights from the original Keras project.
 
 Point-based detection is becoming highly relevant for the industry's shift toward Embodied AI and agentic workflows. In robotics, GUI interaction, and document understanding, predicting a central point or click-target is often more practical and contextually accurate than predicting a full bounding box.
